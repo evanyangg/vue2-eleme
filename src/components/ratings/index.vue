@@ -130,6 +130,7 @@ export default {
 </script>
 
 <style lang="css">
+  @import '../../assets/css/mixin.css';
   .ratings {
     position: absolute;
     top: 174px;

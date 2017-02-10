@@ -1,6 +1,3 @@
-$media: screen;
-$feature: -webkit-min-device-pixel-ratio;
-$value: 1.5;
 body, html {
   line-height: 1;
   font-weight: 200;
@@ -37,7 +34,7 @@ body, html {
   }
 }
 
-@media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
+@media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3) {
   .border-1px {
     &::after {
       -webkit-transform: scaleY(0.33);

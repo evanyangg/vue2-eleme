@@ -11,17 +11,22 @@ module.exports = {
     extract: isProduction
   }),
   postcss: [
-    require('postcss-import')({
-      addDependencyTo: webpack
-      /* Is equivalent to
-      onImport: function (files) {
-      files.forEach(this.addDependency)
-      }.bind(webpack)
-      */
-    }),
+    // require('postcss-import')({
+    //   addDependencyTo: webpack
+    //   /* Is equivalent to
+    //   onImport: function (files) {
+    //   files.forEach(this.addDependency)
+    //   }.bind(webpack)
+    //   */
+    // }),
     require('precss')({
-
+      // addDependencyTo: webpack
     }),
+    // require("postcss-cssnext")({
+    //   features: {
+    //     customProperties: false
+    //   }
+    // })
     require('autoprefixer')({
       browsers: ['last 2 versions']
     })

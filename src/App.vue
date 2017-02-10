@@ -52,13 +52,20 @@ export default {
 </script>
 
 <style lang="css">
-@import "./assets/css/mixin.css";
+  @import "./assets/css/mixin.css";
+  @media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+    .border-1px {
+      &::after {
+        -webkit-transform: scaleY(0.5);
+        transform: scaleY(0.5);
+      }
+    }
+  }
   .tab {
     display: flex;
     width: 100%;
     height: 40px;
     line-height: 40px;
-    /*border-bottom: 1px solid rgba(7, 17, 27, 0.1);*/
     @mixin border-1px rgba(7, 17, 27, 0.1);
     .tab-item {
       flex: 1;

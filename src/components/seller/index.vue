@@ -152,6 +152,7 @@
 </script>
 
 <style lang="css">
+  @import '../../assets/css/mixin.css';
   .seller {
     position: absolute;
     top: 174px;
