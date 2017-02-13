@@ -20,7 +20,7 @@ module.exports = {
     //   */
     // }),
     require('precss')({
-      // addDependencyTo: webpack
+      addDependencyTo: webpack
     }),
     // require("postcss-cssnext")({
     //   features: {

@@ -173,6 +173,7 @@ export default {
   width: 100%;
   overflow: hidden;
   .menu-wrapper {
+    /* Three values: flex-grow | flex-shrink | flex-basis */
     flex: 0 0 80px;
     width: 80px;
     background: #f3f5f7;

@@ -53,6 +53,7 @@ export default {
 
 <style lang="css">
   @import "./assets/css/mixin.css";
+  /*已知bug 在base.css中设置的@media没有生效*/
   @media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
     .border-1px {
       &::after {
