@@ -43,9 +43,8 @@
   }
 </script>
 
-<style lang="css">
-@import "../../assets/css/mixin.css";
-
+<style lang="css" scoped>
+  @import "../../assets/css/mixin.css";
   .star {
     font-size: 0;
     .star-item {

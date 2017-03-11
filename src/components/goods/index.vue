@@ -163,7 +163,7 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
 @import "../../assets/css/mixin.css";
 .goods {
   display: flex;
@@ -197,7 +197,7 @@ export default {
         display: inline-block;
         vertical-align: top;
         width: 12px;
-        height: @width;
+        height: 12px;
         margin-right: 2px;
         background-size: 12px 12px;
         background-repeat: no-repeat;
@@ -231,7 +231,7 @@ export default {
     .title {
       padding-left: 14px;
       height: 26px;
-      line-height: @height;
+      line-height: 26px;
       border-left: 2px solid #d9dde1;
       font-size: 12px;
       color: rgb(147, 153, 159);
@@ -255,7 +255,7 @@ export default {
         .name {
           margin: 2px 0 8px 0;
           height: 14px;
-          line-height: @height;
+          line-height: 14px;
           font-size: 14px;
           color: rgb(7, 17, 27)
         }

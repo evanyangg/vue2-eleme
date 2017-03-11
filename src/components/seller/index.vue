@@ -151,7 +151,7 @@
   }
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
   @import '../../assets/css/mixin.css';
   .seller {
     position: absolute;
@@ -265,7 +265,7 @@
         .icon {
           display: inline-block;
           width: 16px;
-          height: @width;
+          height: 16px;
           vertical-align: top;
           margin-right: 6px;
           background-size: 16px 16px;

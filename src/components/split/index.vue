@@ -7,7 +7,7 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
 .split {
   width: 100%;
   height: 16px;

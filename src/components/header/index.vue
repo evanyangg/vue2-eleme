@@ -68,7 +68,6 @@
 
 <script type="text/ecmascript-6">
   import star from 'components/star'
-
   export default {
     props: {
       seller: {
@@ -97,13 +96,13 @@
   }
 </script>
 
-<style lang="css">
+<style lang="css" >
   @import "../../assets/css/mixin.css";
   .header {
     position: relative;
     overflow: hidden;
     color: #fff;
-    background: rgba(7, 17, 27, 0.5);
+    background: rgba(7, 17, 27, 0.2);
     .content-wrapper {
       position: relative;
       padding: 24px 12px 18px 24px;
@@ -146,7 +145,7 @@
             display: inline-block;
             vertical-align: top;
             width: 12px;
-            height: @width;
+            height: 12px;
             margin-right: 4px;
             background-size: 12px 12px;
             background-repeat: no-repeat;
@@ -196,7 +195,7 @@
     .bulletin-wrapper {
       position: relative;
       height: 28px;
-      line-height: @height;
+      line-height: 28px;
       padding: 0 22px 0 12px;
       white-space: nowrap;
       overflow: hidden;
@@ -230,8 +229,8 @@
       left: 0;
       width: 100%;
       height: 100%;
+      /*filter: blur(10px);*/
       z-index: -1;
-      filter: blur(10px);
     }
     .detail {
       position: fixed;
@@ -241,7 +240,7 @@
       width: 100%;
       height: 100%;
       overflow: auto;
-      backdrop-filter: blur(10px);
+      /*backdrop-filter: blur(10px);*/
       opacity: 1;
       background: rgba(7, 17, 27, 0.8);
       &.fade-enter-active, &.fade-leave-active {
@@ -297,7 +296,7 @@
               .icon {
                 display: inline-block;
                 width: 16px;
-                height: @width;
+                height: 16px;
                 vertical-align: top;
                 margin-right: 6px;
                 background-size: 16px 16px;
@@ -338,7 +337,7 @@
       .detail-close {
         position: relative;
         width: 32px;
-        height: @width;
+        height: 32px;
         margin: -64px auto 0 auto;
         clear: both;
         font-size: 32px;

@@ -151,7 +151,7 @@
   }
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
 @import "../../assets/css/mixin.css";
 .food {
   position: fixed;
@@ -178,7 +178,7 @@
       top: 0;
       left: 0;
       width: 100%;
-      height: @width;
+      height: 100%;
     }
     .back {
       position: absolute;

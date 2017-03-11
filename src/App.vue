@@ -32,7 +32,7 @@ export default {
       seller: {
         id: (() => {
           let queryParam = urlParse()
-          return queryParam.id
+          return queryParam.id ? queryParam.id : 0
         })()
       }
     }
@@ -51,17 +51,8 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
   @import "./assets/css/mixin.css";
-  /*已知bug 在base.css中设置的@media没有生效*/
-  @media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
-    .border-1px {
-      &::after {
-        -webkit-transform: scaleY(0.5);
-        transform: scaleY(0.5);
-      }
-    }
-  }
   .tab {
     display: flex;
     width: 100%;

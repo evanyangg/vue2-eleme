@@ -234,7 +234,7 @@
   }
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
   @import "../../assets/css/mixin.css";
 
   .shopcart {
