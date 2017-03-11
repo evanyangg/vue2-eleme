@@ -1,6 +1,6 @@
 # vue2-eleme
 
-> 基于vue-cli v2.8.1 构建饿了么webapp实例, 仅供参考
+> 高仿饿了么 vue2+router+webpack+postcss, 仅供参考
 
 #### 技术栈
 
@@ -10,12 +10,15 @@
 ##### [vue-router](https://router.vuejs.org/zh-cn/)
 ##### [axios](https://github.com/mzabriskie/axios/)
 ##### [postcss](https://github.com/postcss/postcss/)
-##### [- autoprefixer](https://github.com/postcss/autoprefixer/)
-<!-- ##### [- cssnext](https://github.com/MoOx/postcss-cssnext) -->
-##### [- precss](https://github.com/jonathantneal/precss/)
+##### [- postcss-cssnext](https://github.com/MoOx/postcss-cssnext) (include autoprefixer)
+##### [- postcss-import](https://github.com/postcss/postcss-import)
+##### [- postcss-each](https://github.com/outpunk/postcss-each)
+##### [- postcss-mixins](https://github.com/postcss/postcss-mixins)
+##### [- postcss-nested](https://github.com/postcss/postcss-nested)
+##### [postcss-loader](https://github.com/postcss/postcss-loader)
 
 #### postcss 说明
-这里用precss替代less/sass/stylus, 感觉终于找到符合自己的css处理工具了, precss的语法(与sass语法相近)可以到上面链接中查看文档.
+这里用postcss代替其他预处理(less/sass/stylus), 感觉终于找到符合自己的css处理工具了, postcss插件能够满足你的要求.
 #### yarn 安装
 ```
 npm install -g yarn
