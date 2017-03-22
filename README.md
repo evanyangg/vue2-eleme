@@ -18,7 +18,7 @@
 ##### [postcss-loader](https://github.com/postcss/postcss-loader)
 
 #### postcss 说明
-这里用postcss代替其他预处理(less/sass/stylus), 感觉终于找到符合自己的css处理工具了, postcss插件能够满足你的要求.
+这里用postcss代替其他预处理(less/sass/stylus), 用起来很顺手, postcss插件能够满足你的要求.
 #### yarn 安装
 ```
 npm install -g yarn
@@ -27,7 +27,7 @@ yarn config set registry https://registry.npm.taobao.org
 ```
 #### 运行程序
 ```
-npm install
-npm run dev
+yarn install
+yarn/npm run dev
 http://localhost:8080
 ```
